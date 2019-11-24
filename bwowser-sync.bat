@@ -1,1 +1,0 @@
-browser-sync start --index "main.html"  --server --files "./"
