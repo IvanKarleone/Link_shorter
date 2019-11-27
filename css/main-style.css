@@ -55,37 +55,39 @@ main {
 
 @media (min-width: 768px) {
 
-    main .container-fluid {
-        background: url(../images/main-section.png) center no-repeat;
+    main {
+        min-height: 450px;
+        background: url(https://docrdsfx76ssb.cloudfront.net/static/1574802919/pages/wp-content/uploads/2019/08/homepage.gif) center no-repeat;
+        background-position: right;
         background-size: cover;
     }
 }
 
 main h1 {
-    margin-top: 110px;
-    font-size: 62px;
+    margin-top: 10px;
+    font-size: 35px;
     font-weight: 800;
-    line-height: 56px;
+    line-height: 35px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
 
     main h1 {
         margin-top: 10px;
-        font-size: 38px;
-        line-height: 38px;
+        font-size: 62px;
+        line-height: 58px;
     }
 
 }
 
 main p {
-    margin-bottom: 110px;
+    margin-bottom: 10px;
     font-size: 18px;
     color: #676767;
-    line-height: 1.4;
+    line-height: 22px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
 
     main p {
         margin-bottom: 10px;
@@ -104,7 +106,7 @@ main p {
 }
 
 .url-box-shadow {
-    box-shadow: -2px 5px 7px 2px rgba(0, 0, 255, .2);
+    box-shadow: -2px 5px 7px 2px rgba(0, 0, 0, .2);
     border: #676767 solid 2px;
 }
 
@@ -174,10 +176,6 @@ main p {
     align-items: center;
 }
 
-.advantages .card .card-img img {
-    width: 100%;
-}
-
 .advantages .card .card-body {
     padding: 10px 20px;
 }
@@ -191,7 +189,7 @@ footer {
 footer .name-site {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: rgba(0, 0, 255, .2);
+    background: rgba(0, 0, 0, .2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,10 +201,16 @@ footer p {
 
 /* --------------------------- Media Querys --------------------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
-    .px-xl-205px {
-        padding-left: 205px;
-        padding-right: 205px;
+    .w-lg-50 {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1601px) {
+
+    .w-lg-50 {
+        width: 50%;
     }
 }
