@@ -1,11 +1,14 @@
 body {
-    margin: 0 30px;
     font-family: Montserrat, sans-serif;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
 /* --------------------------- Header --------------------------- */
+
+header {
+    margin: 0 30px;
+}
 
 .navbar {
     padding: 8px 15px;
@@ -45,6 +48,10 @@ body {
 }
 
 /* --------------------------- Main Section --------------------------- */
+
+main {
+    margin: 0 30px;
+}
 
 @media (min-width: 768px) {
 
@@ -91,6 +98,8 @@ main p {
 /* --------------------------- URL Short Section --------------------------- */
 
 .url-short-section {
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 10px;
 }
 
@@ -132,6 +141,8 @@ main p {
 /* --------------------------- Advantages Section --------------------------- */
 
 .advantages {
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 10px;
 }
 
@@ -169,6 +180,25 @@ main p {
 
 .advantages .card .card-body {
     padding: 10px 20px;
+}
+
+/* --------------------------- Footer --------------------------- */
+
+footer {
+    margin-top: 10px;
+}
+
+footer .name-site {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 255, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* --------------------------- Media Querys --------------------------- */
