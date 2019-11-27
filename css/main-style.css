@@ -1,5 +1,4 @@
 body {
-    min-width: 320px;
     margin: 0 30px;
     font-family: Montserrat, sans-serif;
     background: rgb(255, 255, 255);
@@ -134,6 +133,10 @@ main p {
 
 .advantages {
     margin-top: 10px;
+}
+
+.advantages .advantage {
+    margin-bottom: 20px;
 }
 
 .advantages h1 {
