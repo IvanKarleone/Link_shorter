@@ -1,8 +1,42 @@
+/* ---------------------------------- Header ---------------------------------- */
+
+.page__header {
+    margin: 0 30px;
+}
+
+@media (min-width: 992px) {
+
+    .header_width_65 {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1601px) {
+
+    .header_width_50 {
+        width: 50%;
+    }
+}
+
+.header_box-shadow_black {
+    box-shadow: 0 5px 5px rgba(38, 38, 38, 0.16);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 8px 15px;
+}
+
 /* ---------------------------------- Common blocks and elements ---------------------------------- */
 
 .page {
+    margin: 0;
     font-family: Montserrat, sans-serif;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-

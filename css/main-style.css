@@ -226,14 +226,14 @@ footer p {
 
 @media (min-width: 992px) {
 
-    .w-lg-50 {
+    .w-lg-65 {
         width: 65%;
     }
 }
 
 @media (min-width: 1601px) {
 
-    .w-lg-50 {
+    .w-1601-50 {
         width: 50%;
     }
 }
