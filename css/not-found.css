@@ -1,0 +1,39 @@
+/* ---------------------------------- Common blocks and elements ---------------------------------- */
+
+.page {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+/* ---------------------------------- Common blocks and elements ---------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #343a40;
+}
+
+.main__heading {
+    font-size: 25px;
+}
+
+@media (min-width: 576px) {
+
+    .main__heading {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .main__heading {
+        font-size: 38px;
+    }
+}
+
+.main__paragrath {
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
