@@ -92,8 +92,19 @@
     margin-bottom: 8px;
 }
 
-.btn_w_100 {
-    width: 100%;
+.main__list-errors {
+    list-style: none;
+    list-style-image: url(../images/checkmark.png);
+    margin-bottom: 8px;
+}
+
+.main__item-error {
+    font-size: 14px;
+}
+
+.main__btn {
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
 
 /* ---------------------------------- Footer ---------------------------------- */
