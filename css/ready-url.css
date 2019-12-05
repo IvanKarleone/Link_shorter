@@ -1,3 +1,12 @@
+/* ---------------------------------- Common blocks and elements ---------------------------------- */
+
+.page {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 /* ---------------------------------- Header ---------------------------------- */
 
 .page__header {
@@ -18,7 +27,7 @@
     }
 }
 
-.header_box-shadow_black {
+.header_box-shadow_grey {
     box-shadow: 0 5px 5px rgba(38, 38, 38, 0.16);
 }
 
@@ -32,11 +41,57 @@
     padding: 8px 15px;
 }
 
-/* ---------------------------------- Common blocks and elements ---------------------------------- */
+/* ---------------------------------- Main ---------------------------------- */
 
-.page {
-    margin: 0;
-    font-family: Montserrat, sans-serif;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+.page__main {
+    margin: 10px 30px 0;
+}
+
+@media (min-width: 992px) {
+
+    .main_width_65 {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1601px) {
+
+    .main_width_50 {
+        width: 50%;
+    }
+}
+
+.main_box-shadow_black {
+    box-shadow: -2px 5px 7px 2px rgba(0, 0, 0, .2);
+}
+
+.main_border_grey {
+    border: #676767 solid 2px;
+}
+
+.main__heading {
+    font-size: 25px;
+}
+
+@media (min-width: 576px) {
+
+    .main__heading {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .main__heading {
+        font-size: 38px;
+    }
+}
+
+.main__paragrath {
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
+
+.btn_w_100 {
+    width: 100%;
 }

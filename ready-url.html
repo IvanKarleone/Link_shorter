@@ -13,11 +13,32 @@
 </head>
 <body class="page">
 
-    <header class="header page__header header_width_65 header_width_50 header_box-shadow_black mx-lg-auto">
+    <header class="header page__header header_width_65 header_width_50 header_box-shadow_grey mx-lg-auto">
         <div class="logo header__logo">
             <img src="./images/logo.png" alt="">
         </div>
     </header>
+
+    <main class="main page__main main_width_65 main_width_50 main_box-shadow_black main_border_grey mx-lg-auto">
+        <h1 class="main__heading text-center">Your shortened URL</h1>
+        <p class="main__paragrath">Copy the shortened link and share it in messages, texts, posts, websites and other locations.</p>
+        <form class="form-inline">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10 col-sm-7 col-md-6 pr-0">
+                        <input type="text" class="form-control mb-2 w-100" id="url" placeholder="">
+                    </div>
+                    <div class="col-10 col-sm-3 col-md-2 pr-0">
+                        <button type="submit" class="btn btn-dark btn_w_100 mb-2">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__paragrath">© 2019 LinkShrtn.ru - Tool to shorten a long link.</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
