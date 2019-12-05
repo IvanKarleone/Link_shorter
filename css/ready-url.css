@@ -95,3 +95,24 @@
 .btn_w_100 {
     width: 100%;
 }
+
+/* ---------------------------------- Main ---------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_theme_black {
+    background: #343a40;
+    color: white;
+}
+
+.page__footer {
+    padding: 10px 0;
+}
+
+.footer__paragrath {
+    margin: 0;
+}
