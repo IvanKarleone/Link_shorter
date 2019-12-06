@@ -71,6 +71,7 @@
 
 .main__heading {
     font-size: 25px;
+    padding: 0 10px;
 }
 
 @media (min-width: 576px) {
@@ -94,6 +95,20 @@
 
 .btn_w_100 {
     width: 100%;
+}
+
+.main__long-link {
+    text-decoration: underline;
+    color: #343a40;
+}
+
+.main__long-link:hover {
+    color:black;
+}
+
+.main__btn {
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
 
 /* ---------------------------------- Footer ---------------------------------- */
